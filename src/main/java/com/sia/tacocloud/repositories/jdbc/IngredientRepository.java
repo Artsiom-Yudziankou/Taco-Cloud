@@ -5,5 +5,5 @@ import com.sia.tacocloud.essences.jdbc.Ingredient;
 public interface IngredientRepository {
     Iterable<Ingredient> findAll();
     Ingredient findOne(String id);
-    Ingredient save(Ingredient ingredient);
+//    Ingredient save(Ingredient ingredient);
 }

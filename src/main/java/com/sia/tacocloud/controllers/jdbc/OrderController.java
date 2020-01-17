@@ -31,7 +31,7 @@ public class OrderController {
         return "orderForm";
     }
 
-    @PostMapping("/orders")
+    @PostMapping
     public String proccessOrder(@Valid Order order, Errors errors, SessionStatus sessionStatus) {
         if (errors.hasErrors())
             return "orderForm";
