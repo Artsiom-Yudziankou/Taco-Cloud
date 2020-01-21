@@ -1,4 +1,4 @@
-package com.sia.tacocloud.controllers.jpa;
+package com.sia.tacocloud.auxiliary;
 
 import com.sia.tacocloud.essences.jpa.Ingredient;
 import com.sia.tacocloud.repositories.jpa.IngredientRepository;
